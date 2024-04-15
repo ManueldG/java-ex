@@ -1,0 +1,37 @@
+package collaction;
+
+import java.util.*;
+
+public class Collaction {
+
+	public static void main(String[] args) {
+		
+		String[] campionato = new String[100];
+		
+		System.out.println("Inserire numero di squadre:");
+		
+		Scanner nSquadre = new Scanner(System.in);
+		
+		int numSquadre = nSquadre.nextInt();
+		nSquadre.nextLine();
+		
+		
+		for(int n = 0 ; n <= numSquadre ; n++) {
+			
+			System.out.println("Squadre:\n");
+						
+			String squadre = nSquadre.nextLine();
+			
+			campionato[n] = squadre;
+						
+		}
+		
+		campionato.toString();
+		
+		nSquadre.close();
+		
+		
+
+	}
+
+}

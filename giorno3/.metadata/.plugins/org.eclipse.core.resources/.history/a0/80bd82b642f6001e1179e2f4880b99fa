@@ -1,0 +1,41 @@
+package whileex;
+
+import java.util.Scanner;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		
+		/* ciclo while do while paro -> array disparo -> dispari
+		 * se 0 esce
+		 * 
+		 * 
+		 * ciclo do while stringhe che ristamperà come singoli caratteri stringa stop per terminare ciclo charat() e equalsIgnoreCase()*/
+		
+		Scanner l = new Scanner(System.in);
+		Integer n = -1;
+		int[] pari = new int[100];
+		int[] dispari = new int[100];
+		int p = 0;
+		int d = 0;
+		
+		 do {
+			 
+			 System.out.println("Inserisci numero");
+			 n = l.nextInt();
+			 if(n%2 == 0) {
+				 pari[0] = n;
+				 p++;
+			 }
+			 else {
+				 dispati[0] = n;
+				 d++;
+			 }
+			 
+			 			 
+			 
+		 }while(n != 0);
+
+	}
+
+}

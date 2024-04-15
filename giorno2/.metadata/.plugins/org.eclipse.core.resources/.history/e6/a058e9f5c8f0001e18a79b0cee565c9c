@@ -1,0 +1,13 @@
+package giorno2;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		String[][] carte = {"1","J","10","5","Q"}{"C","P","F","C","Q"};
+		
+		System.out.print(carte.length);
+
+	}
+
+}

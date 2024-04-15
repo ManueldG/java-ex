@@ -1,0 +1,125 @@
+package Pr;
+
+import java.util.Scanner;
+
+//Esercizietto di recap partendo 
+//da una variabile benzina double se il valore è 
+//minore di 20 aggiungo 25
+//in ogni caso alla fine stampo "parto con" 
+//più il valore di benzina finale
+public class Primo {
+
+	public static void main(String[] args) {
+		
+		/* double benzina = 10.0;double benzina1=benzina;
+		 if(benzina<20)
+		 {
+			 
+			 benzina+=25;System.out.println("parto con "+ benzina1+" e arrivo a "+benzina);
+		 }else {System.out.println(benzina);
+		*/
+		
+		/*Scanner scanner = new Scanner(System.in);
+		double benz = scanner.nextDouble();
+		
+		if(benz<20)
+		 {
+			 
+			 benz+=25;System.out.println(benz);
+		 }
+		scanner.close();
+	}*/
+ 
+		/*length()
+		 * charAt
+		 * indexOf
+		 */
+ 
+		
+		
+		/*String prova = "aéòù";
+		//System.out.println(prova.charAt(0));
+		Scanner s = new Scanner(System.in);
+		String s1 =s.nextLine();
+		if(s1.indexOf(prova.charAt(prova.length()-1))!=-1)
+			System.out.println("ok");
+		/*aéòù */
+		/*
+		String p = "Napoleone";
+		int numeroVoc=0;
+		for(int i=0; i<p.length();i++)
+		if((p.charAt(i)=='a')||(p.charAt(i)=='e')||(p.charAt(i)=='i')||(p.charAt(i)=='o')||(p.charAt(i)=='u'))numeroVoc+=1;
+		
+		for(int i=0; i<=3;i++)
+		{
+			System.out.println("ciclo esterno"+i);
+			
+			for(int j=0; j<=2;j++)
+			{
+				System.out.println("ciclo interno"+j+"dell'iterazione esterna"+i);
+			}
+			
+		}
+		*/
+		String p = "Napoleone";
+		String vocali = "aeiou";
+		int h=0;
+		for(int i=0; i<p.length();i++)
+		{
+			for(int j=0; j<vocali.length();j++)
+			{
+				if((p.charAt(i)==vocali.charAt(j))&&(h!=vocali.length())) {System.out.println(p.charAt(i));
+				h++;
+			}
+				
+			}
+		}
+		System.out.println(h);
+
+
+/*
+ * String sParola = "Napoleone";
+            String vocali = "aeiou";
+            int iLunghezzaParola = sParola.length();
+            int iNumVocali = 0;
+            for(int i=0;i< iLunghezzaParola;i++) {
+                char carattere = sParola.charAt(i);
+                System.out.println(carattere);
+                boolean èVocale = false;
+                for(int j=0; j< vocali.length();j++) {
+                    System.out.println(vocali.charAt(j));
+
+                if(carattere==vocali.charAt(j)) {
+                    èVocale= true;
+                    break;
+                }
+            if(èVocale) {
+                iNumVocali++;
+                }
+                }
+                
+                
+                }
+ * */
+System.out.print("dammi grandezza");
+Scanner m  = new Scanner(System.in);
+int n = m.nextInt();
+m.nextLine();
+String[] squadra = new String[n];
+
+
+
+for(int i=0; i<squadra.length; i++)
+{
+	System.out.println("inserisci : ");
+	squadra[i] = m.nextLine();
+
+}
+for(String squadre : squadra)
+{
+	System.out.println(squadre);
+	
+
+}
+}
+}

@@ -1,0 +1,39 @@
+package giorno2;
+
+import java.util.*;
+import java.util.ArrayList;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		String[][] carte = {{"1","C"},{"5","F"},{"9","Q"},{"5","P"}};
+		String[][] array = new String[14][4];
+		
+		for(int x = 0 ; x<= carte.length ; x++) {
+			
+			//System.out.println(carte[x][0] + "-" + carte[x][1]);
+			
+			List<String[]> List = Arrays.asList(array);
+			Data obj = new Data(carte[x][0], carte[x][1]);
+			switch(carte[x][1]) {
+				case "C":
+					List.add(carte[x]);
+					break;
+				case "Q":
+					List.add(carte[x]);
+					break;
+				case "F":
+					List.add(carte[x]);
+					break;
+				case "P":
+					List.add(carte[x]);
+					break;
+			}
+			
+			
+		}
+
+	}
+
+}

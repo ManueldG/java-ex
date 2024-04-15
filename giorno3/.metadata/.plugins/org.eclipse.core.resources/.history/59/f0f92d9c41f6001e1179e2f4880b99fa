@@ -1,0 +1,17 @@
+package whileex;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		
+		/* ciclo while do while paro -> array disparo -> dispari
+		 * se 0 esce
+		 * 
+		 * 
+		 * ciclo do while stringhe che ristamperà come singoli caratteri stringa stop per terminare ciclo charat() e equalsIgnoreCase()*/
+		
+		 
+
+	}
+
+}

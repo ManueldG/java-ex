@@ -1,0 +1,58 @@
+package whileex;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		
+		/* ciclo while do while paro -> array disparo -> dispari
+		 * se 0 esce
+		 * 
+		 * 
+		 * ciclo do while stringhe che ristamperà come singoli caratteri stringa stop per terminare ciclo charat() e equalsIgnoreCase()*/
+		
+		Scanner l = new Scanner(System.in);
+		Integer n = -1;
+		int[] pari = new int[100];
+		int[] dispari = new int[100];
+		int p = 0;
+		int d = 0;
+		
+		 do {
+			 
+			 System.out.println("Inserisci numero");
+			 n = l.nextInt();
+			 //Leggo numero
+			 addArray(pari,n);
+			 //scelta condizionale se divisibile per 2 lo assegno in array "pari" posizione p
+			 if(n%2 == 0) {
+				 pari[p] = n;
+				 p++;
+			 }//altrimenti lo assegno in array "dispari" posizione d
+			 else {
+				 dispari[d] = n;
+				 d++;
+			 }
+			 
+			 			 
+			 
+		 }while(n != 0);
+		 
+		 System.out.println(Arrays.toString(pari));
+		 System.out.println(Arrays.toString(dispari));
+		 l.close();
+		 
+
+	}
+	
+	static private int[] addArray(int[] pa, int n){
+		
+		System.out.println(pa[50]);
+		
+		
+		 return pa;
+	 }
+
+}

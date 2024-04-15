@@ -1,0 +1,11 @@
+package liste;
+
+public class Liste {
+
+	public static void main(String[] args) {
+		
+		Collection l = new ArrayList<String>;
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package whileEs;
+
+import java.util.Scanner;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		Scanner x = new Scanner(Sysyem.in);
+		while(true) {
+			
+			
+		}
+	}
+
+}

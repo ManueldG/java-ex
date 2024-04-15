@@ -1,0 +1,40 @@
+package ex1;
+
+import java.util.Scanner;
+
+public class Benzina {
+
+	public static void main(String[] args) {
+		
+		//Esercizietto di recap partendo 
+	    //da una variabile benzina double se il valore è 
+	    //minore di 20 aggiungo 25
+	    //in ogni caso alla fine stampo "parto con" 
+	    //più il valore di benzina finale
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Inserisci benzina");
+		Double benzina = scanner.nextDouble();
+		
+		
+		if (benzina < 20) {
+			
+			benzina += 25;
+			System.out.printf("metto 25 litri e parto con %,.0f" , benzina);
+			
+		}
+		else
+		{
+			System.out.println("Hai abbastanza benzina");
+		}
+		
+		scanner.close();
+			
+		
+		
+		
+
+	}
+
+}

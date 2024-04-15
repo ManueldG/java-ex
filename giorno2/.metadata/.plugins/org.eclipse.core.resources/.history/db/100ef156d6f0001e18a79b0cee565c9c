@@ -1,0 +1,35 @@
+package accenti;
+
+import java.util.Scanner;
+
+public class ParoleAccentate {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Inserisci Parola");
+		String frase = input.nextLine();
+		
+		System.out.println( frase.charAt(frase.length()-1));
+		
+		
+			switch(frase.charAt(frase.length()-1) {
+			case "C":
+				List.add(carte[x]);
+				break;
+			case "Q":
+				List.add(carte[x]);
+				break;
+			case "F":
+				List.add(carte[x]);
+				break;
+			case "P":
+				List.add(carte[x]);
+				break;
+			}
+		
+
+	}
+
+}

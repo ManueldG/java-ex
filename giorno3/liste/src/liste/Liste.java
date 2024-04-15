@@ -1,0 +1,69 @@
+package liste;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
+public class Liste {
+
+	public static void main(String[] args) {
+		
+	List<String> l = new ArrayList<String>();
+		
+		l.add("car");
+		l.add("bike");
+		l.addAll(l);
+		l.remove("car");
+		System.out.println(l);
+		
+		System.out.println(l.isEmpty());
+		System.out.println(l.indexOf("bike"));
+		l.clear();
+		System.out.println(l);
+
+	}
+
+}
+
+/*
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+    public static void main(String[] args) {
+        
+        List<String> frutta = new ArrayList<>(Arrays.asList("fragola", "arancia", "kiwi"));
+        frutta.add("mela");
+        frutta.add("pera");
+        frutta.add("banana");
+        frutta.remove("banana");
+        frutta.add(1,"mora");
+        frutta.indexOf("pera");
+        frutta.lastIndexOf("pera");
+        frutta.clear();
+
+        
+//        Collections.addAll(lista, 1,3,3,4,5,6);
+//        
+//        for(int i= 0; i < lista.size(); i++) {
+//            System.out.println(lista.get(i));
+//            
+//        }
+//        for(int j : lista) {
+//            System.out.println(j);
+//            
+//        }
+//        
+//        
+//        
+//        Double doubleObj = Double.valueOf(123);
+//        Double doubleObj2 = 123.3948289;
+//        int numero = Integer.parseInt("123");
+//        String booleana = Boolean.toString(true);
+//        Integer x = 1000;
+//        Integer y = 1000;
+//        System.out.println(x.equals(y));
+*/

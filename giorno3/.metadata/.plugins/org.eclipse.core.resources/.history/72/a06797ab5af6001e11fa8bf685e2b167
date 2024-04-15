@@ -1,0 +1,19 @@
+package liste;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class Liste {
+
+	public static void main(String[] args) {
+		
+		Collection l = new ArrayList<String>();
+		
+		l.add("car");
+		l.add("bike");
+		l.addAll(l);
+		l.remove("car");
+
+	}
+
+}

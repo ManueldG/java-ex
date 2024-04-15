@@ -1,0 +1,22 @@
+package ex1;
+
+public class Benzina {
+
+	public static void main(String[] args) {
+		
+		//Esercizietto di recap partendo 
+	    //da una variabile benzina double se il valore è 
+	    //minore di 20 aggiungo 25
+	    //in ogni caso alla fine stampo "parto con" 
+	    //più il valore di benzina finale
+		
+		double benzina = 10;
+		
+		if (benzina < 20)
+			benzina += 25;
+		
+		System.out.println("Parto con " + benzina);
+
+	}
+
+}

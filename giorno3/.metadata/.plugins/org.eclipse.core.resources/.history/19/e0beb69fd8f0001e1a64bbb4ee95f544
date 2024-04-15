@@ -1,0 +1,49 @@
+package Pr;
+
+import java.util.Scanner;
+
+//Esercizietto di recap partendo 
+//da una variabile benzina double se il valore è 
+//minore di 20 aggiungo 25
+//in ogni caso alla fine stampo "parto con" 
+//più il valore di benzina finale
+public class Primo {
+
+	public static void main(String[] args) {
+		
+		/* double benzina = 10.0;double benzina1=benzina;
+		 if(benzina<20)
+		 {
+			 
+			 benzina+=25;System.out.println("parto con "+ benzina1+" e arrivo a "+benzina);
+		 }else {System.out.println(benzina);
+		*/
+		
+		/*Scanner scanner = new Scanner(System.in);
+		double benz = scanner.nextDouble();
+		
+		if(benz<20)
+		 {
+			 
+			 benz+=25;System.out.println(benz);
+		 }
+		scanner.close();
+	}*/
+ 
+		/*length()
+		 * charAt
+		 * indexOf
+		 */
+ 
+		
+		
+		String prova = "aéòù";
+		System.out.println(prova.charAt(0));
+		Scanner s = new Scanner(System.in);
+		String s1 =s.nextLine();
+		if(s1.charAt(s1.length()-1)==prova.charAt(prova.length()-1))System.out.println("ok");
+		/*aéòù */
+		
+}
+}
+

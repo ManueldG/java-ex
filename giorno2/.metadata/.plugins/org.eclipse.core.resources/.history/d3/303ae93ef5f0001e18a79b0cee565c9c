@@ -1,0 +1,18 @@
+package whileEs;
+
+import java.util.Scanner;
+import java.awt.event.KeyEvent;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		Scanner x = new Scanner(System.in);
+		
+		while(!Keyboard.isKeyPressed(KeyEvent.VK_ESCAPE)) {
+			
+			if (Keyboard.isKeyPressed(KeyEvent.VK_W)) System.out.println("W is pressed!");
+			
+		}
+	}
+
+}

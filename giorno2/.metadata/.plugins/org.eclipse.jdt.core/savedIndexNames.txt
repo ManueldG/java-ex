@@ -1,0 +1,8 @@
+INDEX VERSION 1.134+C:\Users\Studente4.14\giorno2\.metadata\.plugins\org.eclipse.jdt.core
+3035520336.index
+1488688393.index
+144661401.index
+722766541.index
+2641736029.index
+1158649336.index
+1865797976.index

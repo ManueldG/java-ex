@@ -1,0 +1,9 @@
+package ciao;
+
+public class Main {
+	
+	Calcolatrice c = new Calcolatrice();
+	
+	
+
+}

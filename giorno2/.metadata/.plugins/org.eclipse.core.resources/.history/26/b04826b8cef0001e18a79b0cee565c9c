@@ -1,0 +1,35 @@
+package giorno2;
+
+import java.util.*;
+
+public class test {
+
+	public static void main(String[] args) {
+		
+		String[][] carte = {{"1","C"},{"5","F"},{"9","Q"},{"5","P"}};
+		String[][] cuori,quadri,fiori,picche = new String[14][4];
+		
+		for(int x = 0 ; x<= carte.length ; x++) {
+			System.out.println(carte[x][0] + "-" + carte[x][1]);
+			Array.asList(carte);
+			switch(carte[x][1]) {
+			case "C":
+				cuori[];
+				break;
+			case "Q":
+				quadri[];
+				break;
+			case "F":
+				fiori[];
+				break;
+			case "P":
+				picche[];
+				break;
+			}
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,229 @@
+!SESSION 2024-04-02 09:19:45.534 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 09:19:51.151
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-02 09:20:42.505
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-02 09:20:58.753
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.ui 4 120 2024-04-02 16:00:51.899
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$StreamListener.streamAppended(ProcessConsole.java:809)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:171)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.fireStreamAppended(OutputStreamMonitor.java:168)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:256)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:225)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+!SESSION 2024-04-09 09:13:02.176 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 09:13:52.955
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 09:14:16.029
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-09 09:14:31.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-04-09 10:06:30.996 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:06:58.777
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:07:13.591
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-09 10:07:22.964
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-04-09 10:09:13.567 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:09:16.484
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:09:20.349
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-09 10:09:28.858
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.709
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.709
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.rss,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.710
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.712
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.714
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.715
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.717
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.inlinesearch,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.717
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.718
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:24.719
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.201
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.203
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.204
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base.win,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.332
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.401
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.elevation.win32,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.506
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.638
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.670
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.746
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.769
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.849
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:25.990
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:26.106
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:26.140
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.1.0.202402281519.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-04-09 10:10:26.174
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,org.eclipse.nebula.widgets.gallery,1.0.0.201706221838.
+!SESSION 2024-04-09 10:10:41.073 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Studente4.10/Desktop/Java/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:10:46.800
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:11:14.251
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-04-09 10:11:15.566
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-04-09 10:11:15.566
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-04-09 10:11:16.458
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2024-04-09 10:11:16.501
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-09 10:11:25.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-04-09 10:25:02.262 -----------------------------------------------
+eclipse.buildId=4.31.0.20240307-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Studente4.10/Desktop/Java/
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:25:08.090
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-04-09 10:25:12.584
+!MESSAGE Logback config file: C:\Users\Studente4.10\Desktop\Java\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-04-09 10:25:26.145
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Studente4.10'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wb.core.java 2 0 2024-04-09 10:41:19.379
+!MESSAGE The file '/wbp-meta/org/eclipse/ui/forms/widgets/FormToolkit.wbp-factory.xml' should use 'http://www.eclipse.org/wb/WBPComponent' instead of the default namespace.
+
+!ENTRY org.eclipse.wb.core.java 2 0 2024-04-09 10:41:20.125
+!MESSAGE The file '/wbp-meta/org/eclipse/jface/viewers/CheckboxTableViewer.wbp-factory.xml' should use 'http://www.eclipse.org/wb/WBPComponent' instead of the default namespace.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2024-04-09 14:03:32.436
+!MESSAGE Connection closed with CodeTogether backend: 

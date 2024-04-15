@@ -1,0 +1,27 @@
+package napoleone;
+
+public class Napoleone {
+
+	public static void main(String[] args) {
+		
+		String sParola = "Napoleone";
+		
+		int iLunghezzaParola = sParola.length();
+		
+		int iNumVocali = 0;
+		
+		for(int i=0;i< iLunghezzaParola;i++)
+			
+		{
+		if( ( sParola.charAt(i)=='a') || ( sParola.charAt(i)=='e') || (	sParola.charAt(i)=='i')|| ( sParola.charAt(i)=='o')|| ( sParola.charAt(i)=='u')) 
+			
+			iNumVocali = iNumVocali + 1;
+
+		}
+		
+		System.out.println(iNumVocali);
+
+}
+
+
+}

@@ -1,0 +1,29 @@
+package DoWhileEx2;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class DoWhileEx2 {
+
+	public static void main(String[] args) {
+		
+		Scanner l = new Scanner(System.in);
+		String s = "";
+		
+		
+		 do {
+			 
+			 System.out.println("Inserisci numero");
+			 s = l.nextLine();
+			 
+			 
+			 			 
+			 
+		 }while(n != 0);
+		 
+		 System.out.println(Arrays.toString(pari));
+		 System.out.println(Arrays.toString(dispari));
+
+	}
+
+}

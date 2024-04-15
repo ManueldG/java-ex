@@ -1,0 +1,14 @@
+package ciao;
+
+public class Main {
+	
+	
+	
+	public static void Main(String[] args) {
+		
+		Calcolatrice c = new Calcolatrice();
+		
+		c.somma(2,5);
+	}
+
+}

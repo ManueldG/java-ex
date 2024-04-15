@@ -1,0 +1,31 @@
+package whileEs;
+
+import java.util.Scanner;
+
+public class WhileEx {
+
+	public static void main(String[] args) {
+		
+		Scanner x = new Scanner(System.in);
+		int tot = 0;
+		
+		while(true) {
+			
+			System.out.println("Inserisci numero");
+			
+			String r = x.next();
+			int num = (int) Integer.valueOf(r);
+			tot += num;
+			System.out.println("inserito" + num);
+			if ( r == "\r") {
+				
+				System.out.println(tot);
+				break;
+			}
+				
+		}
+		
+		x.close();
+	}
+
+}
