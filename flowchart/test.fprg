@@ -4,48 +4,54 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Studente4.10"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-04-22 11:02:29 "/>
+        <attribute name="saved" value="2024-04-22 11:30:27 "/>
         <attribute name="created" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIwOTozNToyNiAiOzMzMDI="/>
-        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMTowMjoyOSAiOzY7MzQwNQ=="/>
+        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMTozMDoyNyAiOzEyOzM0NDk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <read variable="input"/>
-            <output expression="&quot;menui&quot;" newline="True"/>
+            <call expression="leggiFile(file)"/>
+            <read variable="lista"/>
+            <output expression="&quot;menu&quot;" newline="True"/>
             <input variable="scelta"/>
-            <if expression="scelta = 1">
-                <then>
-                    <call expression="lista()"/>
-                </then>
-                <else>
-                    <if expression="scelta = 2">
-                        <then>
-                            <call expression="inserisci(elem)"/>
-                        </then>
-                        <else>
-                            <if expression="scelta = 3">
-                                <then>
-                                    <call expression="cancella(indice)"/>
-                                </then>
-                                <else>
-                                    <if expression="scelta = 4">
-                                        <then>
-                                            <call expression="salva(file)"/>
-                                        </then>
-                                        <else>
-                                            <if expression="default">
-                                                <then/>
-                                                <else/>
-                                            </if>
-                                        </else>
-                                    </if>
-                                </else>
-                            </if>
-                        </else>
-                    </if>
-                </else>
-            </if>
+            <while expression="true">
+                <if expression="scelta = 1">
+                    <then>
+                        <call expression="lista()"/>
+                    </then>
+                    <else>
+                        <if expression="scelta = 2">
+                            <then>
+                                <call expression="inserisci(chiave,elem)"/>
+                            </then>
+                            <else>
+                                <if expression="scelta = 3">
+                                    <then>
+                                        <call expression="cancella(indice)"/>
+                                    </then>
+                                    <else>
+                                        <if expression="scelta = 4">
+                                            <then>
+                                                <call expression="salva(file)"/>
+                                                <write expression="&quot;output.txt&quot;"/>
+                                            </then>
+                                            <else>
+                                                <if expression="default">
+                                                    <then>
+                                                        <breakpoint expression="" always="True"/>
+                                                    </then>
+                                                    <else/>
+                                                </if>
+                                            </else>
+                                        </if>
+                                    </else>
+                                </if>
+                            </else>
+                        </if>
+                    </else>
+                </if>
+            </while>
         </body>
     </function>
 </flowgorithm>
