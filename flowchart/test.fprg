@@ -4,18 +4,19 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Studente4.10"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-04-22 11:30:27 "/>
+        <attribute name="saved" value="2024-04-22 11:46:13 "/>
         <attribute name="created" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIwOTozNToyNiAiOzMzMDI="/>
-        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMTozMDoyNyAiOzEyOzM0NDk="/>
+        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMTo0NjoxMyAiOzEzOzM0NTI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <call expression="leggiFile(file)"/>
-            <read variable="lista"/>
+            <read variable="lista"/>	
+            <while expression="true">
             <output expression="&quot;menu&quot;" newline="True"/>
             <input variable="scelta"/>
-            <while expression="true">
+            
                 <if expression="scelta = 1">
                     <then>
                         <call expression="lista()"/>
@@ -51,6 +52,7 @@
                         </if>
                     </else>
                 </if>
+                <call expression="scrivi(menu)"/>
             </while>
         </body>
     </function>
