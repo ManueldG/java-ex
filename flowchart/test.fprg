@@ -4,14 +4,29 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="Studente4.10"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-04-22 10:41:26 "/>
+        <attribute name="saved" value="2024-04-22 10:53:14 "/>
         <attribute name="created" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIwOTozNToyNiAiOzMzMDI="/>
-        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMDo0MToyNiAiOzM7MzQwMQ=="/>
+        <attribute name="edited" value="U3R1ZGVudGU0LjEwO0RFU0tUT1AtQ0xSMzdWQzsyMDI0LTA0LTIyOyIxMDo1MzoxNCAiOzU7MzQwMw=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <read variable="leggi file input.txt"/>
+            <input variable="input"/>
+            <output expression="&quot;menui&quot;" newline="True"/>
+            <input variable="SCELTA"/>
+            <if expression="SCELTA = 1">
+                <then>
+                    <call expression="lista()"/>
+                </then>
+                <else>
+                    <if expression="SCELTA = 2">
+                        <then>
+                            <call expression="inserisci(ELEM)"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
         </body>
     </function>
 </flowgorithm>
