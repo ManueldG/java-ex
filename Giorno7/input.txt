@@ -1,0 +1,4 @@
+1,1984,George-Orwell,200
+2,Metamorfosi,Franz-Kafka
+3,Giro-del-mondo-in-80-giorni,Jules-Verne
+4,Don-Quichotte,Cervantes,300
